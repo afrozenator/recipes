@@ -13,5 +13,8 @@ Or in .bashrc
 alias testvim='vim -u /Users/afroz/Code/rc-files/vim'
 ```
 
-# Another option
-pass
+# Install requirements.txt
+
+```shell
+pip install -r requirements.txt
+```
