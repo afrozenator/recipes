@@ -1,5 +1,6 @@
 - [Custom vimrc file](#custom-vimrc-file)
-- [Another option](#another-option)
+- [Install requirements.txt](#install-requirementstxt)
+- [wget github file](#wget-github-file)
 
 
 # Custom vimrc file
@@ -17,4 +18,10 @@ alias testvim='vim -u /Users/afroz/Code/rc-files/vim'
 
 ```shell
 pip install -r requirements.txt
+```
+
+# wget github file
+
+```shell
+wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
 ```
