@@ -4,6 +4,8 @@
 - [Install requirements.txt](#install-requirementstxt)
 - [wget github file](#wget-github-file)
 - [matplotlib pyplot show matrix with data inside cells](#matplotlib-pyplot-show-matrix-with-data-inside-cells)
+- [Git](#git)
+  - [push existing repo from commandline](#push-existing-repo-from-commandline)
 
 
 # Custom vimrc file
@@ -43,4 +45,14 @@ for i in range(len(itos)):
         plt.text(j, i, chstr,  ha='center', va='bottom', color='gray')
         plt.text(j, i, probab, ha='center', va='top',    color='gray')
 plt.axis('off')
+```
+
+# Git
+
+## push existing repo from commandline
+
+```shell
+git remote add origin git@github.com:afrozenator/makemore.git
+git branch -M main
+git push -u origin main
 ```
