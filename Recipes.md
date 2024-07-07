@@ -6,6 +6,7 @@
 - [matplotlib pyplot show matrix with data inside cells](#matplotlib-pyplot-show-matrix-with-data-inside-cells)
 - [Git](#git)
   - [push existing repo from commandline](#push-existing-repo-from-commandline)
+- [Mac Emojis](#mac-emojis)
 
 
 # Custom vimrc file
@@ -56,3 +57,7 @@ git remote add origin git@github.com:afrozenator/makemore.git
 git branch -M main
 git push -u origin main
 ```
+
+# Mac Emojis
+
+ Cmd + Ctrl + Space
